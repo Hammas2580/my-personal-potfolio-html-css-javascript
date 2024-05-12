@@ -1,0 +1,82 @@
+/* global section */
+:root {
+  /* --background color-- */
+  --primary-color: #fd4766;
+  --secondart-color: #0e1525;
+  --bg-dark-blue: #091020;
+  --bg-white: #fff;
+  --gray-color: #c6c9d8df;
+  /* --text color-- */
+  --primary-color: #fd4766;
+  --text-gray: #c6c9d8bf;
+  --text-white: #fff;
+}
+/* --media 991px-- */
+@media (max-width: 991px) {
+  /* --custom css */
+  section {
+    padding: 30px 0 !important;
+  }
+  h2 {
+    font-size: 30px !important;
+    line-height: 40px !important;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
+  /* --navbar */
+  .header-scrolled {
+    height: auto !important;
+  }
+  .header_wrapper .menu-navbar-nav {
+    text-align: center !important;
+    background-color: var(--bg-dark-blue) !important;
+    padding-bottom: 15px !important;
+  }
+  .header_wrapper .nav-item .nav-link {
+    margin-top: 15px !important;
+  }
+
+  /*  banner wrapper */
+  .banner_wrapper {
+    padding: 200px 0 !important;
+  }
+  /* about section */
+  .about_wrapper ul.nav-pills {
+    width: 61% !important;
+    margin: auto !important;
+  }
+  /* potfolio */
+  .potfolio_wrapper .card {
+    min-height: 400px !important;
+  }
+}
+/* --media 767px-- */
+@media (max-width: 767px) {
+  /* --custom css */
+  h1 {
+    font-size: 40px !important;
+    line-height: 48px !important;
+  }
+  h2 {
+    font-size: 25px !important;
+  }
+  p {
+    font-size: 13px !important;
+    line-height: 24px !important;
+  }
+}
+
+/* about section */
+.about_wrapper ul.nav-pills {
+  width: 100% !important;
+  margin: auto !important;
+  border: none !important;
+}
+.about_wrapper ul li .nav-link {
+  font-size: 13px !important;
+}
+/* potfolio */
+.potfolio_wrapper .card {
+  min-height: 500px !important;
+}
